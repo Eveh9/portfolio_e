@@ -1,5 +1,6 @@
 import nyanCatPng from "../assets/nyan_cat.png";
 import "./Projects.style.css";
+import { PiGithubLogoThin } from "react-icons/pi";
 
 const projectList = [
   {
@@ -23,7 +24,11 @@ const Projects = () => {
             <li className="project-card">
               <h3>{project.name}</h3>
               <img src={project.img} className="project-image" />
-              {project.github ? <a href={project.github}>github</a> : null}
+              {project.github ? (
+                <a href={project.github}>
+                  <PiGithubLogoThin size={30} />
+                </a>
+              ) : null}
             </li>
           );
         })}

@@ -1,0 +1,10 @@
+.links-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-link {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
