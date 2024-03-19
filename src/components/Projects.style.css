@@ -1,0 +1,22 @@
+.project-list {
+  list-style-type: none;
+  display: flex;
+  gap: 32px;
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 24px 32px;
+  background-color: #ececec;
+}
+
+.project-image {
+  width: 250px;
+  height: 300px;
+}
