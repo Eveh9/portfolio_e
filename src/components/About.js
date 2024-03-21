@@ -1,7 +1,12 @@
-const Hero = () => {
+const About = () => {
   return (
-    <section>
-      <h2>Hero</h2>
+    <section id="aboutSection">
+      <h2>About</h2>
+      <img
+        src="https://www.worldhistory.org/uploads/images/5287.jpg"
+        alt="Victory wings statue"
+        className="about-image"
+      />
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -12,4 +17,4 @@ const Hero = () => {
     </section>
   );
 };
-export default Hero;
+export default About;

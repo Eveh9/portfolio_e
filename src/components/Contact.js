@@ -4,7 +4,7 @@ import { GrMail } from "react-icons/gr";
 
 const Contact = () => {
   return (
-    <section>
+    <section id="contactSection">
       <h2>Contact Me</h2>
       <div className="links-container">
         <div className="contact-link">

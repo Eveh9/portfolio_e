@@ -1,12 +1,7 @@
-const AboutMe = () => {
+const Home = () => {
   return (
-    <section>
-      <h2>About me</h2>
-      <img
-        src="https://www.worldhistory.org/uploads/images/5287.jpg"
-        alt="Victory wings statue"
-        className="about-image"
-      />
+    <section id="homeSection">
+      <h2>Home</h2>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
       veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -17,4 +12,4 @@ const AboutMe = () => {
     </section>
   );
 };
-export default AboutMe;
+export default Home;
