@@ -16,7 +16,10 @@ const Contact = () => {
 
         <div className="contact-link">
           <p>linkedin</p>
-          <a href="https://www.linkedin.com/in/evelyn-r-9b2207223/">
+          <a
+            href="https://www.linkedin.com/in/evelyn-r-9b2207223/"
+            target="_blank"
+          >
             <PiLinkedinLogoLight size={24} />
           </a>
         </div>
