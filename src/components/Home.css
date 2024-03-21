@@ -1,0 +1,18 @@
+/* Photo by <a href="https://unsplash.com/@actionjackson801?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Jackson Hendry</a> on <a href="https://unsplash.com/photos/silhouette-of-trees-near-body-of-water-under-sky-with-stars-eodA_8CTOFo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   */
+
+.home-section {
+  background-image: url("/src/assets/jackson-hendry-eodA_8CTOFo-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgba(55, 11, 112, 0.466);
+  padding: 2px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 8rem;
+}
