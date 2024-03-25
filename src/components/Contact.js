@@ -1,11 +1,14 @@
 import { PiLinkedinLogoLight } from "react-icons/pi";
-import "./Contact.style.css";
+import "./Contact.css";
+import profilImg from "../assets/369640068_780095523870091_4856225720546761459_n.jpg";
 import { GrMail } from "react-icons/gr";
 
 const Contact = () => {
   return (
-    <section id="contactSection">
+    <section id="contactSection" className="contact-section">
       <h2>Contact Me</h2>
+      <img src={profilImg} alt="Victory wings statue" className="contact-img" />
+
       <div className="links-container">
         <div className="contact-link">
           <p>email</p>

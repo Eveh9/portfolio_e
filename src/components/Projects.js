@@ -1,5 +1,5 @@
 import nyanCatPng from "../assets/nyan_cat.png";
-import "./Projects.style.css";
+import "./Projects.css";
 import { PiGithubLogoThin } from "react-icons/pi";
 
 const projectList = [
@@ -16,7 +16,7 @@ const projectList = [
 
 const Projects = () => {
   return (
-    <section id="projectsSection">
+    <section id="projectsSection" className="project-section">
       <h2>Projects</h2>
       <ul className="project-list">
         {projectList.map((project) => {

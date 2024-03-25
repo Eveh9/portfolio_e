@@ -6,7 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   color: rgba(55, 11, 112, 0.466);
-  padding: 2px;
+  padding: 24px;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,4 +15,7 @@
 
 .home-title {
   font-size: 8rem;
+  @media only screen and (max-width: 768px) {
+    font-size: 4rem;
+  }
 }
