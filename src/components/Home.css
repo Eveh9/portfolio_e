@@ -2,10 +2,10 @@
    */
 
 .home-section {
-  background-image: url("/src/assets/jackson-hendry-eodA_8CTOFo-unsplash.jpg");
+  /* background-image: url("/src/assets/jackson-hendry-eodA_8CTOFo-unsplash.jpg"); */
   background-size: cover;
   background-repeat: no-repeat;
-  color: rgba(55, 11, 112, 0.466);
+
   padding: 24px;
   height: 100vh;
   display: flex;
@@ -14,6 +14,8 @@
 }
 
 .home-title {
+  color: white;
+  opacity: 0.5;
   font-size: 8rem;
   @media only screen and (max-width: 768px) {
     font-size: 4rem;

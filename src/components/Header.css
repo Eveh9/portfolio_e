@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  justify-content: end;
+  gap: 16px;
+  width: 100%;
+  padding: 8px;
+  position: sticky;
+  top: 0;
+  background-color: black;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: azure;
+}
+
+.nav-link:hover {
+  color: #4166f5;
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
