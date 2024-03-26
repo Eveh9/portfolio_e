@@ -25,7 +25,11 @@ const Projects = () => {
               <h3>{project.name}</h3>
               <img src={project.img} className="project-image" />
               {project.github ? (
-                <a href={project.github} target="_blank">
+                <a
+                  href={project.github}
+                  target="_blank"
+                  className="project-card-github"
+                >
                   <PiGithubLogoThin size={30} />
                 </a>
               ) : null}
