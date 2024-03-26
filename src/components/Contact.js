@@ -11,14 +11,17 @@ const Contact = () => {
 
       <div className="links-container">
         <div className="contact-link">
-          <p>email</p>
+          <p>Feel free to reach me out through email </p>
           <a href="mailto:chevelynda2@gmail.com">
             <GrMail size={24} />
           </a>
         </div>
 
         <div className="contact-link">
-          <p>linkedin</p>
+          <p>
+            I invite you to review my profile to learn more about me, let's stay
+            connected on Linkedin
+          </p>
           <a
             href="https://www.linkedin.com/in/evelyn-r-9b2207223/"
             target="_blank"

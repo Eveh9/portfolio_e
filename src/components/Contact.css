@@ -10,6 +10,17 @@
   gap: 6px;
 }
 
+.contact-link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.contact-link > a :hover {
+  color: rgb(160, 162, 169);
+  transform: scale(1.1);
+  transition: linear 0.2s;
+}
+
 .contact-section {
   gap: 24px;
   padding: 24px;
