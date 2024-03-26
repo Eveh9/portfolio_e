@@ -11,14 +11,14 @@ const About = () => {
           <div className="about-img-container">
             <img
               src={sunImg}
-              alt="Victory wings statue"
+              // alt="Victory wings statue"
               className="about-image"
             />
           </div>
           <div className="about-img-container">
             <img
               src={natureImg}
-              alt="Victory wings statue"
+              // alt="Victory wings statue"
               className="about-image"
             />
           </div>
