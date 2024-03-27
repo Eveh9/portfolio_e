@@ -12,6 +12,7 @@
   gap: 24px;
   align-items: center;
   padding-top: 16px;
+  font-family: "Dosis", sans-serif;
 }
 
 .about-text {
@@ -32,4 +33,11 @@
   border-radius: 8px;
   width: 450px;
   height: 275px;
+}
+.name-container {
+  padding: 24px;
+  display: flex;
+  justify-content: left;
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: x-large;
 }

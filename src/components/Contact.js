@@ -1,7 +1,7 @@
 import { PiLinkedinLogoLight } from "react-icons/pi";
 import "./Contact.css";
-import profilImg from "../assets/369640068_780095523870091_4856225720546761459_n.jpg";
-import { GrMail } from "react-icons/gr";
+import profilImg from "../assets/square_ver.jpg";
+import { CiMail } from "react-icons/ci";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
         <div className="contact-link">
           <p>◢◤ Feel free to reach me out through email </p>
           <a href="mailto:chevelynda2@gmail.com">
-            <GrMail size={24} />
+            <CiMail size={24} />
           </a>
         </div>
 

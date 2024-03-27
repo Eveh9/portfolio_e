@@ -9,29 +9,27 @@ const About = () => {
       <div className="about-content">
         <div className="about-img-list ">
           <div className="about-img-container">
-            <img
-              src={sunImg}
-              // alt="Victory wings statue"
-              className="about-image"
-            />
+            <img src={sunImg} className="about-image" />
           </div>
           <div className="about-img-container">
-            <img
-              src={natureImg}
-              // alt="Victory wings statue"
-              className="about-image"
-            />
+            <img src={natureImg} className="about-image" />
           </div>
         </div>
+
         <div className="about-text">
-          <p>
-            I'm on my way to become a full stack web developper. I find
-            fascinating how coding can give live to useful tools for people
-            online. Some of my other interests are meditacion, dance and
-            traveling. I love to immerse inside myself and listen to my inner
-            voice, listen to the music while I dance and discover new horizons,
-            culture and food.
-          </p>
+          <div className="name-container">
+            <h3>Hello! I'm Evelyn Resendiz</h3>
+          </div>
+          <div>
+            <p>
+              I'm on my way to become a full stack web developper. I find
+              fascinating how coding can give live to useful tools for people
+              online. Some of my other interests are meditacion, dance and
+              traveling. I love to immerse inside myself and listen to my inner
+              voice, listen to the music while I dance and discover new
+              horizons, culture and food.
+            </p>
+          </div>
         </div>
       </div>
     </section>
