@@ -18,16 +18,16 @@ const About = () => {
 
         <div className="about-text">
           <div className="name-container">
-            <h3>Hello! I'm Evelyn Resendiz</h3>
+            <h3>Hello! I'm EVELYN RESENDIZ</h3>
           </div>
-          <div>
+          <div className="self-description">
             <p>
               I'm on my way to become a full stack web developper. I find
               fascinating how coding can give live to useful tools for people
               online. Some of my other interests are meditacion, dance and
-              traveling. I love to immerse inside myself and listen to my inner
-              voice, listen to the music while I dance and discover new
-              horizons, culture and food.
+              traveling. I love to immerse inside myself and be attentive to my
+              inner voice, listen to the music while I dance and discover new
+              horizons, culture and food whenever I travel.
             </p>
           </div>
         </div>

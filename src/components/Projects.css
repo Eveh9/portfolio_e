@@ -15,8 +15,8 @@
   align-items: center;
   gap: 8px;
   border-radius: 8px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(200, 184, 224, 0.25) 0px 50px 100px -20px,
+    rgba(132, 57, 175, 0.3) 0px 30px 60px -30px;
   padding: 24px 32px;
   background-color: #374065;
 }
@@ -36,10 +36,10 @@
 
 .project-card-github {
   text-decoration: none;
-  color: black;
+  color: rgb(182, 182, 238);
 }
 .project-card-github:hover {
-  color: rgb(89, 95, 196);
+  color: rgb(245, 245, 246);
   transform: scale(1.1);
   transition: linear 0.2s;
 }
