@@ -23,12 +23,6 @@
   flex-direction: column;
 }
 
-.about-img-container {
-  /* border-radius: 8px;
-  border: 1px solid black;
-  width: 250px; */
-}
-
 .about-image {
   border-radius: 8px;
   width: 450px;
