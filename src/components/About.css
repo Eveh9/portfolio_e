@@ -26,7 +26,9 @@
 .about-image {
   border-radius: 8px;
   width: 450px;
-  height: 275px;
+  @media only screen and (max-width: 480px) {
+    width: 100%;
+  }
 }
 .name-container {
   padding: 24px;
